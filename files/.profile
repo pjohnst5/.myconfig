@@ -66,4 +66,5 @@ source <(kubectl completion bash)
 complete -F __start_kubectl k
 
 # Editor for kube edit
-export EDITOR='code --wait'
+# export EDITOR='code --wait'
+export EDITOR=vim
