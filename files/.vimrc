@@ -23,4 +23,5 @@ autocmd BufWritePre * :%s/\s+$//e
 set wildmode=longest,list
 set wildmenu
 
-
+" paste without looking weird
+set paste
