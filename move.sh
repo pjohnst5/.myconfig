@@ -7,8 +7,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cp "$DIR"/files/.[a-zA-Z0-9]* ~/
 
 # Instll Vundle
-mkdir ~/.vim/bundle
-
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 vim +PluginInstall +qall
